@@ -6,7 +6,6 @@ from dataclasses import dataclass
 from enum import Enum
 import pandas as pd
 from datetime import datetime
-import os
 
 # MCP functionality to be implemented when MCP packages are available
 # TODO: Add MCP imports when packages are ready
