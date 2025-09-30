@@ -1,0 +1,31 @@
+# Core dependencies
+pandas>=1.5.0
+asyncio-mqtt>=0.11.0
+python-dateutil>=2.8.0
+
+# Azure Data Explorer (may need manual setup for authentication)
+azure-kusto-data>=3.1.0
+azure-kusto-ingest>=3.1.0
+azure-identity>=1.12.0
+
+# SharePoint (may need additional SharePoint permissions)
+Office365-REST-Python-Client>=2.4.0
+
+# MCP (Model Context Protocol) - Currently not available
+# TODO: Add MCP packages when officially released
+# Note: The current code has MCP functionality commented out
+# mcp>=1.0.0
+
+# Optional: For enhanced NLP (uncomment if needed)
+# spacy>=3.4.0
+# transformers>=4.20.0
+
+# Optional: For database connections (uncomment if needed)
+# sqlalchemy>=1.4.0
+# psycopg2-binary>=2.9.0
+# pymongo>=4.0.0
+
+# Optional: For advanced data processing (uncomment if needed)
+# numpy>=1.21.0
+# matplotlib>=3.5.0
+# seaborn>=0.11.0
